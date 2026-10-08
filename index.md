@@ -1,6 +1,6 @@
 # Porchlight: Trick or Treat — Privacy Policy
 
-**Effective date: October 7, 2026**
+**Effective date: October 8, 2026**
 
 Porchlight is a cozy Halloween game. You can play the whole game offline. The online extras (visiting
 other players' streets, friends, leaderboards, house contests and cloud saves) use a small game server we
@@ -11,6 +11,8 @@ run at porchlight.reecedev.ca. This policy says exactly what that involves.
 - **No ads, no analytics SDKs, no tracking, no in-app purchases.** We never sell or share your data.
 - **No email, password, real name, location, contacts, camera or microphone.** We never ask for them.
 - Online play uses a random player ID created on your device, plus the display name you choose.
+- You can optionally **Sign in with Apple or Google** to keep your save on every device. We ask Apple and Google
+  for nothing but an anonymous account identifier: no email, no name.
 - You can switch online features off in **Settings**, and you can **delete your online account** in the
   game at any time (Settings → More → Delete online account).
 
@@ -19,6 +21,7 @@ run at porchlight.reecedev.ca. This policy says exactly what that involves.
 | Data | Why | Who can see it |
 |---|---|---|
 | Random player ID (generated on your device, not a hardware ID) and login tokens | To recognise your game when it reconnects | Only our server |
+| If you choose Sign in with Apple or Google: a scrambled (hashed) copy of the account identifier Apple or Google gives us, and for Apple a revocation token | So signing in on another device finds your save; so we can cancel the Apple sign-in when you delete your account | Only our server |
 | Display name (up to 16 characters, filtered for bad words) | Shown to other players | Other players |
 | Age band (under 13 / 13 and over), parent PIN (stored only as a hash) | Child-safety settings, see below | Only our server |
 | Cloud save and a public snapshot of your house (decorations, trophies, costumes, arcade bests) | Cloud save, friends visiting your house, contests | You; the snapshot is visible to friends and contest voters |
@@ -45,7 +48,7 @@ online account in the game, or ask us to delete it by email.
 ## Deleting your data
 
 In the game: **Settings → More → Delete online account**. This permanently deletes your online account, friends,
-cloud save, house snapshot, contest entries and leaderboard scores from our server. Your saved game on
+cloud save, house snapshot, contest entries and leaderboard scores from our server, and disconnects any Apple or Google sign-in. Your saved game on
 the device stays until you delete the app. You can also email us to ask for deletion.
 
 ## Blocking and reporting
